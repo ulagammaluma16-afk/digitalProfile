@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ULAGAMMAL U | Digital Profile</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #f6f9fc, #e9efff);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #4facfe, #6a11cb);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* PROFILE IMAGE */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 20px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.08);
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* SECTION */
+section {
+    background: white;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #6a11cb;
+    margin-bottom: 15px;
+}
+
+/* PROJECT GRID */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: linear-gradient(135deg, #eef2ff, #ffffff);
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #4facfe;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* CONTACT BUTTONS */
+.contact a {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    padding: 12px 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.github {
+    background: linear-gradient(45deg, #000, #434343);
+}
+
+.linkedin {
+    background: linear-gradient(45deg, #0a66c2, #004182);
+}
+
+.email {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+.contact a:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>ULAGAMMAL U</h1>
+
+    <!-- ✅ YOUR PHOTO HERE -->
+    <img src="profile.jpg" alt="ULAGAMMAL U" class="profile-img">
+
+    <p>Electronics & Communication Engineering Student | Embedded Systems Enthusiast</p>
+</header>
+
+<div class="container">
+
+<section>
+    <h2>🎓 About Me</h2>
+    <p>
+        I am an Electronics and Communication Engineering student with a strong interest in embedded systems, 
+        circuit design, and emerging technologies. I am passionate about developing innovative solutions 
+        and continuously enhancing my technical and problem-solving skills.
+    </p>
+</section>
+
+<section>
+    <h2>🛠 Skills</h2>
+    <ul>
+        <li>C Programming</li>
+    </ul>
+</section>
+
+<section>
+    <h2>🚀 Projects</h2>
+
+    <div class="projects">
+
+        <div class="project">
+            <h3>🐾 Animal Detection System for Rural Safety</h3>
+            <p>
+                A system designed to detect animal movement near rural households using sensors and alert users 
+                through buzzer notifications to improve safety.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>🧠 Design of Bio-Inspired Artificial Neuron Circuits for Neuromorphic Computing</h3>
+            <p>
+                Developed bio-inspired artificial neuron circuits that replicate neural behavior, contributing 
+                to efficient hardware-based neuromorphic computing systems.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>🤖 AI-Based Government Mapping Scheme</h3>
+            <p>
+                Proposed an AI-driven system to map and analyze government schemes, enabling better accessibility 
+                and awareness for the public.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+    <h2>🏆 Achievements</h2>
+    <ul>
+        <li>Presented Animal Detection Project for rural applications</li>
+        <li>Active learner in electronics and programming</li>
+    </ul>
+</section>
+
+<section>
+    <h2>📜 Certifications</h2>
+    <ul>
+        <li>SACOEISUM Winning Certificate</li>
+        <li>Participated in Ideathon</li>
+    </ul>
+</section>
+
+<section class="contact">
+    <h2>📞 Contact</h2>
+
+    <a href="mailto:ulagammalu.ug.25.ec@francisxavier.ac.in" class="email">Email</a>
+
+    <a href="https://github.com/ulagammaluma16-afk" target="_blank" class="github">
+        GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/ulagammal-u-3640a3382" target="_blank" class="linkedin">
+        LinkedIn
+    </a>
+
+</section>
+
+</div>
+
+<footer>
+    <p>© 2026 ULAGAMMAL U | Digital Portfolio</p>
+</footer>
+
+</body>
+</html>
